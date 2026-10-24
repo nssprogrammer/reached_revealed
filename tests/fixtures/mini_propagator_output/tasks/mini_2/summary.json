@@ -1,0 +1,1 @@
+{"task": "mini_2", "repo": "mini", "secs": [0.4, 0.5, 0.5], "peak_mb": [27, 27, 27], "n_tests": 6, "n_funcs": 7, "n_edges": 5, "pkgs": "mini", "d_old": 0, "d_old_list": [], "d_rev": 0, "d_rev_list": [], "fid_mismatch": 0, "fid_list": [], "nF": 1, "F_exec": 1, "F_missing": [], "old_tests_hit_F": 3, "n_f2p": 1, "f2p_hit_F": true, "f2p_footprint": 4}

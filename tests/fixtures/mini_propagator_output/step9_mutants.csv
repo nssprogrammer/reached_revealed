@@ -1,0 +1,11 @@
+task,repo,site,cls,op,n_cover,n_sel,b,killed,n_missing,in_tb,n_tb,depth_pkg
+mini_1,mini,mini.core.clamp,Fstar,cond,6,6,6,True,0,0,6,[]
+mini_1,mini,mini.core.clamp,Fstar,cmp,6,6,0,False,0,0,0,[]
+mini_1,mini,mini.core.Acc.add,caller,const,3,4,0,False,0,0,0,[]
+mini_1,mini,mini.core._check,callee,ret,6,6,6,True,0,0,6,[]
+mini_1,mini,mini.core.total,d2,ret,3,4,3,True,0,0,3,[]
+mini_2,mini,mini.core.Acc.add,Fstar,const,4,4,0,False,0,0,0,[]
+mini_2,mini,mini.core.Acc.add,Fstar,ret,4,4,4,True,0,0,4,[]
+mini_2,mini,mini.core.total,caller,ret,4,4,4,True,0,0,4,[]
+mini_2,mini,mini.core.clamp,callee,ret,6,6,1,True,0,0,1,[]
+mini_2,mini,mini.core._check,d2,ret,6,6,6,True,0,0,6,[]

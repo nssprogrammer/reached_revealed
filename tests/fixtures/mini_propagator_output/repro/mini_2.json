@@ -1,0 +1,1 @@
+{"task": "mini_2", "repo": "mini", "cat": "package", "nF": 1, "status": "reproduced", "req_src": "extracted", "n_req": 1, "f2p": ["test_big"], "n_f2p": 1, "apply": "nl:git/raw:patch", "targets": 1, "bad": [], "bad_msg": [], "secs": 0.9}

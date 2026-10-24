@@ -1,0 +1,3 @@
+task,repo,version,ctrl_n,ctrl_bad,ctrl_bad_list,ctrl_rc,n_mut,n_run,n_timeout,n_killed,baseline_pass,n_missing
+mini_1,mini,2,6,0,[],0,5,5,0,3,6,0
+mini_2,mini,2,6,0,[],0,5,5,0,4,6,0

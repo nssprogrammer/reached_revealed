@@ -1,0 +1,11 @@
+# CPU experiments (Kaggle image already has most of these)
+numpy
+pandas
+scipy
+matplotlib
+packaging
+pytest
+# SWE-rebench runs (internet on)
+datasets
+uv
+# Gemma runs: vLLM 0.19.1 from the competition wheelhouse dataset (installed offline by the notebooks)

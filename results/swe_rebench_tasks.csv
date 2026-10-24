@@ -1,0 +1,184 @@
+task,repo,python,v,d_raw,rev_raw,n_missing_ids,status,n_tests_old,d_old,d_old_list,rev_old,nF,F_exec,old_tests_hit_F,n_f2p,f2p_hit_F,suite_secs,n_mut,caught_any,caught_grader,caught_harness,n_p2p,sel_missing,sel_total,rank_cov,rank_k1,d_sf,mentioned,f2p,fail_base,pass_gold,msg
+Textualize__textual-3863,Textualize/textual,3.9,3,0.0,0.0,0.0,reproduced,2325.0,0.0,[],0.0,0.0,0.0,0.0,4.0,0.0,177.4,0.0,,,,0.0,0.0,0.0,,,,,,,,
+kedro-org__kedro-3424,kedro-org/kedro,3.9,3,0.0,0.0,0.0,reproduced,1368.0,0.0,[],0.0,2.0,2.0,90.0,2.0,2.0,993.5,7.0,1.0,0.7142857142857143,1.0,93.0,0.0,330.0,45.0,3.0,1.0,False,,,,
+data-apis__array-api-strict-42,data-apis/array-api-strict,3.9,3,0.0,0.0,0.0,reproduced,102.0,0.0,[],0.0,2.0,2.0,0.0,1.0,1.0,9.7,0.0,,,,25.0,0.0,0.0,2.0,2.0,1.0,True,,,,
+zarr-developers__zarr-python-2416,zarr-developers/zarr-python,3.11,3,0.0,0.0,2.0,reproduced,1991.0,0.0,[],0.0,10.0,10.0,130.0,4.0,4.0,106.1,3.0,1.0,0.3333333333333333,1.0,317.0,0.0,142.0,9.0,42.0,1.0,True,,,,
+pre-commit__pre-commit-2029,pre-commit/pre-commit,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+fitbenchmarking__fitbenchmarking-1271,fitbenchmarking/fitbenchmarking,3.9,3,0.0,0.0,0.0,reproduced,462.0,0.0,[],0.0,1.0,1.0,4.0,1.0,1.0,80.6,4.0,0.75,0.5,0.75,3.0,0.0,12.0,19.0,19.0,inf,False,,,,
+jaraco__zipp-60,jaraco/zipp,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+beeware__briefcase-2035,beeware/briefcase,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+KIT-IAI__pyWATTS-92,KIT-IAI/pyWATTS,3.9,3,0.0,2.0,0.0,reproduced,148.0,0.0,[],2.0,3.0,3.0,6.0,1.0,1.0,30.5,8.0,1.0,0.375,1.0,6.0,0.0,35.0,1.0,2.0,0.0,False,,,,
+coverahealth__dataspec-88,coverahealth/dataspec,3.9,3,0.0,0.0,0.0,reproduced,1064.0,0.0,[],0.0,4.0,4.0,32.0,2.0,2.0,4.2,12.0,0.8333333333333334,0.75,0.8333333333333334,774.0,0.0,164.0,1.0,3.0,0.0,False,,,,
+iris-hep__func_adl-140,iris-hep/func_adl,3.9,3,0.0,0.0,0.0,reproduced,360.0,0.0,[],0.0,8.0,8.0,182.0,5.0,5.0,6.5,9.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,70.0,0.0,1190.0,3.0,4.0,0.0,True,,,,
+planetlabs__planet-client-python-977,planetlabs/planet-client-python,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,9.0,9.0,0.0,
+cloud-custodian__cloud-custodian-6532,cloud-custodian/cloud-custodian,3.9,3,0.0,0.0,0.0,reproduced,1.0,0.0,[],0.0,1.0,0.0,0.0,0.0,0.0,2.3,0.0,,,,33.0,0.0,0.0,,,,,,,,
+pyvista__pyvista-5003,pyvista/pyvista,3.9,3,0.0,0.0,0.0,trace-failed,,,,,,,,,,,,,,,,,,,,,,,,,"/python3.9/site-packages/pytest/__main__.py"", line 9 in <module>
+  File ""/root/.local/share/uv/python/cpython-3.9-linux-x86_64-gnu/lib/python3.9/runpy.py"", line 87 in _run_code
+  File ""/root/.local/share/uv/python/cpython-3.9-linux-x86_64-gnu/lib/python3.9/runpy.py"", line 197 in _run_module_as_main
+"
+martinfleis__clustergram-12,martinfleis/clustergram,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+mne-tools__mne-bids-1357,mne-tools/mne-bids,3.10,3,0.0,0.0,0.0,reproduced,288.0,0.0,[],0.0,1.0,1.0,4.0,1.0,1.0,15.4,4.0,0.75,0.75,0.75,1.0,0.0,4.0,3.0,3.0,2.0,False,,,,
+globocom__m3u8-374,globocom/m3u8,3.9,3,0.0,1.0,0.0,reproduced,260.0,0.0,[],1.0,3.0,3.0,90.0,2.0,2.0,3.6,12.0,0.8333333333333334,0.5833333333333334,0.8333333333333334,146.0,0.0,464.0,1.0,3.0,2.0,False,,,,
+marshmallow-code__flask-smorest-561,marshmallow-code/flask-smorest,3.9,3,0.0,0.0,0.0,reproduced,544.0,0.0,[],0.0,5.0,5.0,90.0,2.0,2.0,11.7,4.0,0.75,0.25,0.25,60.0,0.0,160.0,1.0,3.0,0.0,True,,,,
+tobymao__sqlglot-1889,tobymao/sqlglot,3.9,3,0.0,0.0,0.0,reproduced,815.0,0.0,[],0.0,3.0,2.0,11.0,1.0,1.0,127.6,4.0,1.0,1.0,1.0,14.0,0.0,48.0,23.0,5.0,2.0,True,,,,
+iterative__dvc-784,iterative/dvc,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+fabiobatalha__chess_master-2,fabiobatalha/chess_master,3.9,3,0.0,0.0,0.0,reproduced,0.0,0.0,[],0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.0,,,,17.0,0.0,0.0,,,,,,,,
+tobymao__sqlglot-3150,tobymao/sqlglot,3.9,3,0.0,0.0,0.0,reproduced,954.0,0.0,[],0.0,4.0,4.0,22.0,1.0,1.0,271.9,4.0,1.0,1.0,1.0,43.0,0.0,4.0,2.0,5.0,inf,True,,,,
+asottile__pyupgrade-286,asottile/pyupgrade,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,
+xarray-contrib__xskillscore-230,xarray-contrib/xskillscore,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+twisted__twisted-12302,twisted/twisted,3.9,3,0.0,4.0,896.0,reproduced,12472.0,0.0,[],0.0,2.0,1.0,0.0,1.0,0.0,553.8,4.0,0.75,0.75,0.75,10.0,0.0,4.0,4929.0,4929.0,inf,True,,,,
+mwouts__jupytext-1202,mwouts/jupytext,3.9,3,0.0,0.0,0.0,reproduced,3268.0,0.0,[],0.0,1.0,1.0,637.0,1.0,0.0,586.0,4.0,1.0,0.0,1.0,395.0,0.0,2548.0,245.0,245.0,inf,True,,,,
+unionai-oss__pandera-1813,unionai-oss/pandera,3.9,3,0.0,0.0,0.0,reproduced,3857.0,0.0,[],0.0,2.0,2.0,379.0,1.0,1.0,504.0,8.0,0.875,0.125,0.875,4.0,0.0,2440.0,3.0,20.0,0.0,False,,,,
+samkohn__larpix-control-68,samkohn/larpix-control,3.9,3,0.0,0.0,0.0,reproduced,198.0,0.0,[],0.0,2.0,2.0,145.0,1.0,1.0,4.4,8.0,0.875,0.375,0.875,150.0,0.0,476.0,1.0,1.0,0.0,True,,,,
+commitizen-tools__commitizen-539,commitizen-tools/commitizen,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+sqlfluff__sqlfluff-4526,sqlfluff/sqlfluff,3.9,3,,,,suite-timeout,,,,,,,,,,,,,,,,,,,,,,,,,
+astropy__specreduce-128,astropy/specreduce,3.9,3,0.0,1.0,0.0,reproduced,17.0,0.0,[],1.0,7.0,7.0,2.0,4.0,1.0,11.8,2.0,1.0,0.0,0.0,0.0,0.0,10.0,10.0,9.0,1.0,True,,,,
+AzureAD__microsoft-authentication-library-for-python-730,AzureAD/microsoft-authentication-library-for-python,3.9,3,0.0,1.0,0.0,reproduced,201.0,0.0,[],0.0,3.0,3.0,41.0,6.0,6.0,55.6,8.0,0.5,0.125,0.125,12.0,0.0,196.0,3.0,3.0,0.0,False,,,,
+peterbe__hashin-43,peterbe/hashin,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,3.0,3.0,0.0,
+PyCQA__flake8-1726,PyCQA/flake8,3.9,3,0.0,0.0,0.0,reproduced,468.0,0.0,[],0.0,1.0,1.0,29.0,1.0,1.0,4.1,4.0,1.0,0.5,0.75,22.0,0.0,120.0,53.0,21.0,5.0,True,,,,
+NeuralEnsemble__python-neo-1297,NeuralEnsemble/python-neo,3.9,3,0.0,0.0,0.0,reproduced,1339.0,0.0,[],0.0,1.0,1.0,0.0,2.0,2.0,133.1,4.0,1.0,0.75,1.0,1.0,0.0,12.0,1.0,1.0,1.0,False,,,,
+getsentry__sentry-python-3524,getsentry/sentry-python,3.9,3,0.0,1.0,0.0,reproduced,1536.0,0.0,[],1.0,7.0,5.0,270.0,4.0,4.0,550.1,8.0,0.5,0.25,0.25,34.0,0.0,1460.0,7.0,9.0,2.0,True,,,,
+IAMconsortium__pyam-792,IAMconsortium/pyam,3.10,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,4.0,4.0,2.0,
+gitpython-developers__GitPython-1838,gitpython-developers/GitPython,3.9,3,0.0,11.0,0.0,reproduced,601.0,0.0,[],0.0,6.0,5.0,212.0,10.0,10.0,76.1,3.0,0.6666666666666666,0.0,0.0,102.0,190.0,294.0,2.0,7.0,0.0,True,,,,
+scverse__spatialdata-605,scverse/spatialdata,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+feder-observatory__stellarphot-315,feder-observatory/stellarphot,3.10,3,,,,env-failed,,,,,,,,,,,,,,,,,,,,,,,,,"install: 1-viewer-seeing-template.ipynb`.
+
+         The most likely cause of this is an entry in the `tool.hatch.build.targets.wheel.force-include` table. See: https://hatch.pypa.io/1.8/config/build/#forced-inclusion
+
+
+hint: Build failures usually indicate a problem with the package or the build environment
+"
+OSeMOSYS__otoole-234,OSeMOSYS/otoole,3.9,3,0.0,1.0,0.0,reproduced,219.0,0.0,[],1.0,6.0,6.0,23.0,5.0,5.0,87.9,12.0,0.75,0.08333333333333333,0.75,89.0,0.0,124.0,1.0,2.0,0.0,True,,,,
+Algebra8__pyopenapi3-80,Algebra8/pyopenapi3,3.9,3,0.0,1.0,0.0,reproduced,15.0,0.0,[],0.0,9.0,9.0,7.0,2.0,2.0,2.0,7.0,0.8571428571428571,0.0,0.7142857142857143,8.0,0.0,28.0,1.0,3.0,0.0,True,,,,
+ipython__ipython-13730,ipython/ipython,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,3.0,3.0,2.0,
+collective__icalendar-185,collective/icalendar,3.9,3,0.0,0.0,0.0,reproduced,84.0,0.0,[],0.0,2.0,2.0,0.0,1.0,1.0,1.3,1.0,1.0,1.0,1.0,17.0,0.0,1.0,2.0,2.0,1.0,True,,,,
+elastic__elasticsearch-dsl-py-1557,elastic/elasticsearch-dsl-py,3.9,3,0.0,0.0,0.0,reproduced,410.0,0.0,[],0.0,1.0,1.0,0.0,2.0,0.0,3.2,0.0,,,,57.0,0.0,0.0,160.0,212.0,2.0,True,,,,
+somm15__PyViCare-132,somm15/PyViCare,3.9,3,0.0,0.0,0.0,reproduced,36.0,0.0,[],0.0,1.0,1.0,0.0,1.0,1.0,1.3,2.0,1.0,1.0,1.0,2.0,0.0,4.0,1.0,2.0,0.0,False,,,,
+agronholm__anyio-158,agronholm/anyio,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,
+ipython__ipykernel-1076,ipython/ipykernel,3.9,3,0.0,0.0,0.0,reproduced,177.0,0.0,[],0.0,2.0,2.0,8.0,1.0,1.0,106.0,6.0,0.8333333333333334,0.8333333333333334,0.8333333333333334,4.0,0.0,40.0,11.0,15.0,1.0,True,,,,
+kedro-org__kedro-3947,kedro-org/kedro,3.9,3,0.0,0.0,0.0,reproduced,1526.0,0.0,[],0.0,1.0,1.0,1.0,1.0,1.0,949.2,4.0,1.0,0.5,1.0,81.0,0.0,8.0,1.0,1.0,0.0,True,,,,
+vidstige__ar-17,vidstige/ar,3.9,3,0.0,4.0,0.0,reproduced,22.0,0.0,[],4.0,1.0,1.0,4.0,6.0,6.0,0.6,4.0,0.5,0.5,0.5,5.0,0.0,44.0,1.0,7.0,3.0,True,,,,
+python-trio__trio-1805,python-trio/trio,3.9,3,1.0,2.0,0.0,reproduced,607.0,0.0,[],0.0,3.0,3.0,505.0,2.0,2.0,57.6,5.0,0.8,0.2,0.6,94.0,0.0,405.0,40.0,27.0,3.0,False,,,,
+iris-hep__qastle-58,iris-hep/qastle,3.9,3,0.0,0.0,0.0,reproduced,81.0,0.0,[],0.0,5.0,5.0,69.0,4.0,4.0,2.0,4.0,1.0,0.25,1.0,77.0,0.0,196.0,1.0,1.0,0.0,True,,,,
+zopefoundation__DocumentTemplate-29,zopefoundation/DocumentTemplate,3.9,3,0.0,0.0,0.0,reproduced,25.0,0.0,[],0.0,6.0,6.0,0.0,4.0,4.0,1.2,12.0,0.4166666666666667,0.16666666666666666,0.4166666666666667,10.0,0.0,140.0,11.0,1.0,3.0,True,,,,
+fabiobatalha__chess_master-4,fabiobatalha/chess_master,3.9,3,0.0,0.0,0.0,reproduced,0.0,0.0,[],0.0,6.0,0.0,0.0,0.0,0.0,0.6,0.0,,,,22.0,0.0,0.0,,,,,,,,
+aspuru-guzik-group__selfies-116,aspuru-guzik-group/selfies,3.9,3,0.0,0.0,0.0,reproduced,36.0,0.0,[],0.0,1.0,1.0,25.0,1.0,1.0,1.4,3.0,0.6666666666666666,0.0,0.6666666666666666,22.0,0.0,75.0,3.0,2.0,2.0,False,,,,
+narwhals-dev__narwhals-519,narwhals-dev/narwhals,3.9,3,0.0,0.0,0.0,reproduced,1238.0,0.0,[],0.0,1.0,1.0,1206.0,1.0,1.0,32.8,0.0,,,,56.0,0.0,0.0,2.0,1.0,1.0,True,,,,
+gitpython-developers__GitPython-1832,gitpython-developers/GitPython,3.9,3,0.0,11.0,0.0,reproduced,601.0,0.0,[],0.0,1.0,1.0,2.0,1.0,1.0,70.9,4.0,0.75,0.75,0.75,19.0,0.0,12.0,3.0,1.0,1.0,True,,,,
+jmwri__ioccontainer-4,jmwri/ioccontainer,3.9,3,0.0,0.0,0.0,reproduced,12.0,0.0,[],0.0,3.0,3.0,8.0,2.0,2.0,0.5,12.0,0.75,0.6666666666666666,0.75,12.0,0.0,104.0,2.0,1.0,1.0,True,,,,
+UXARRAY__uxarray-263,UXARRAY/uxarray,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,5.0,5.0,0.0,
+devopshq__artifactory-60,devopshq/artifactory,3.9,3,0.0,0.0,0.0,reproduced,50.0,0.0,[],0.0,0.0,0.0,0.0,2.0,0.0,5.6,0.0,,,,32.0,0.0,0.0,,,,,,,,
+kapouille__mongoquery-4,kapouille/mongoquery,3.9,3,0.0,0.0,0.0,reproduced,9.0,0.0,[],0.0,4.0,4.0,9.0,1.0,1.0,0.5,12.0,1.0,0.25,1.0,9.0,0.0,84.0,1.0,1.0,1.0,True,,,,
+canonical__charmcraft-1763,canonical/charmcraft,3.10,3,0.0,0.0,0.0,reproduced,3069.0,0.0,[],0.0,2.0,2.0,0.0,5.0,5.0,135.2,3.0,0.0,0.0,0.0,0.0,15.0,15.0,2.0,2.0,0.0,False,,,,
+owkin__PyDESeq2-127,owkin/PyDESeq2,3.9,3,0.0,0.0,0.0,reproduced,115.0,0.0,[],0.0,1.0,1.0,14.0,1.0,1.0,14.1,4.0,1.0,1.0,1.0,1.0,0.0,4.0,1.0,3.0,1.0,True,,,,
+xgi-org__xgi-525,xgi-org/xgi,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+tskit-dev__tsdate-391,tskit-dev/tsdate,3.9,3,0.0,2.0,0.0,trace-failed,,,,,,,,,,,,,,,,,,,,,,,,,"/python3.9/site-packages/pytest/__main__.py"", line 9 in <module>
+  File ""/root/.local/share/uv/python/cpython-3.9-linux-x86_64-gnu/lib/python3.9/runpy.py"", line 87 in _run_code
+  File ""/root/.local/share/uv/python/cpython-3.9-linux-x86_64-gnu/lib/python3.9/runpy.py"", line 197 in _run_module_as_main
+"
+rr-__docstring_parser-31,rr-/docstring_parser,3.9,3,0.0,0.0,0.0,reproduced,95.0,0.0,[],0.0,1.0,1.0,31.0,1.0,1.0,0.9,4.0,1.0,0.75,1.0,19.0,0.0,128.0,9.0,6.0,2.0,True,,,,
+cloud-custodian__cloud-custodian-7996,cloud-custodian/cloud-custodian,3.9,3,,,,suite-timeout,,,,,,,,,,,,,,,,,,,,,,,,,
+wemake-services__wemake-python-styleguide-2411,wemake-services/wemake-python-styleguide,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,8.0,8.0,6.0,
+django-json-api__django-rest-framework-json-api-1065,django-json-api/django-rest-framework-json-api,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,4.0,4.0,0.0,
+google__flax-3537,google/flax,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,
+twisted__towncrier-651,twisted/towncrier,3.9,3,0.0,1.0,0.0,reproduced,144.0,0.0,[],1.0,1.0,1.0,45.0,2.0,2.0,5.8,4.0,1.0,0.75,1.0,40.0,0.0,188.0,12.0,2.0,3.0,True,,,,
+sybila__eBCSgen-109,sybila/eBCSgen,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+python-cmd2__cmd2-465,python-cmd2/cmd2,3.9,3,0.0,0.0,0.0,reproduced,424.0,0.0,[],0.0,1.0,1.0,157.0,2.0,2.0,5.6,0.0,,,,127.0,0.0,0.0,8.0,1.0,0.0,True,,,,
+palantir__python-language-server-220,palantir/python-language-server,3.9,3,,,,suite-timeout,,,,,,,,,,,,,,,,,,,,,,,,,
+neurostuff__PyMARE-106,neurostuff/PyMARE,3.9,3,,,,env-failed,,,,,,,,,,,,,,,,,,,,,,,,,"install: rror
+  cause: Call to `setuptools.build_meta:__legacy__.build_editable` failed (exit status: 1)
+
+         [stderr]
+         Traceback (most recent call last):
+           File ""<string>"", line 11, in <module>
+         AttributeError: '_BuildMetaLegacyBackend' object has no attribute 'build_editable'
+"
+mkdocs__mkdocs-3466,mkdocs/mkdocs,3.9,3,0.0,0.0,0.0,reproduced,0.0,0.0,[],0.0,5.0,0.0,0.0,0.0,0.0,0.7,0.0,,,,44.0,0.0,0.0,,,,,,,,
+Shoobx__mypy-zope-80,Shoobx/mypy-zope,3.9,3,0.0,0.0,0.0,reproduced,41.0,0.0,[],0.0,1.0,1.0,27.0,1.0,1.0,33.4,4.0,1.0,1.0,1.0,0.0,0.0,116.0,10.0,16.0,2.0,False,,,,
+zopefoundation__zope.component-55,zopefoundation/zope.component,3.9,3,0.0,0.0,0.0,reproduced,244.0,0.0,[],0.0,1.0,1.0,9.0,1.0,1.0,2.2,4.0,1.0,0.25,1.0,50.0,0.0,40.0,7.0,6.0,2.0,True,,,,
+ilevkivskyi__typing_inspect-71,ilevkivskyi/typing_inspect,3.9,3,0.0,0.0,0.0,reproduced,24.0,0.0,[],0.0,0.0,0.0,0.0,5.0,0.0,0.5,0.0,,,,15.0,0.0,0.0,,,,,,,,
+fgmacedo__python-statemachine-353,fgmacedo/python-statemachine,3.9,3,0.0,1.0,0.0,reproduced,194.0,0.0,[],1.0,2.0,2.0,90.0,1.0,1.0,3.4,6.0,1.0,0.16666666666666666,0.6666666666666666,33.0,176.0,484.0,2.0,2.0,0.0,False,,,,
+marshmallow-code__webargs-584,marshmallow-code/webargs,3.9,3,0.0,0.0,0.0,reproduced,415.0,0.0,[],0.0,2.0,2.0,70.0,3.0,3.0,27.1,4.0,1.0,0.75,1.0,103.0,0.0,280.0,4.0,4.0,4.0,True,,,,
+evopy__evopy-27,evopy/evopy,3.9,3,0.0,0.0,0.0,reproduced,12.0,0.0,[],0.0,4.0,4.0,12.0,2.0,2.0,4.0,6.0,0.8333333333333334,0.8333333333333334,0.8333333333333334,5.0,0.0,80.0,6.0,1.0,0.0,False,,,,
+asdf-format__asdf-1361,asdf-format/asdf,3.9,3,,,,env-failed,,,,,,,,,,,,,,,,,,,,,,,,,"install: ause asdf[tests]==0.1.dev1+g7b52d3b68 depends on gwcs>=0.18.3, we can conclude that asdf[tests]==0.1.dev1+g7b52d3b68 depends on asdf>=2.8.1.
+         And because only asdf[tests]==0.1.dev1+g7b52d3b68 is available and you require asdf[tests], we can conclude that your requirements are unsatisfiable.
+"
+pypa__cibuildwheel-829,pypa/cibuildwheel,3.9,3,0.0,0.0,0.0,reproduced,426.0,0.0,[],0.0,4.0,4.0,328.0,3.0,3.0,31.1,12.0,0.9166666666666666,0.3333333333333333,0.5833333333333334,25.0,0.0,3824.0,4.0,1.0,1.0,False,,,,
+streamlink__streamlink-5844,streamlink/streamlink,3.9,3,0.0,0.0,0.0,reproduced,6391.0,0.0,[],0.0,1.0,1.0,51.0,1.0,1.0,32.5,4.0,1.0,0.75,1.0,23.0,0.0,212.0,4.0,7.0,1.0,False,,,,
+tefra__xsdata-787,tefra/xsdata,3.9,3,0.0,1.0,0.0,reproduced,947.0,0.0,[],1.0,2.0,2.0,6.0,2.0,1.0,7.7,4.0,1.0,0.75,1.0,5.0,0.0,32.0,5.0,5.0,0.0,True,,,,
+asottile__pyupgrade-933,asottile/pyupgrade,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+CWorthy-ocean__C-Star-226,CWorthy-ocean/C-Star,3.10,3,0.0,3.0,0.0,reproduced,257.0,0.0,[],3.0,1.0,1.0,4.0,9.0,9.0,183.5,4.0,1.0,1.0,1.0,18.0,0.0,36.0,3.0,1.0,1.0,True,,,,
+twisted__towncrier-639,twisted/towncrier,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+agronholm__sqlacodegen-371,agronholm/sqlacodegen,3.9,3,0.0,0.0,0.0,reproduced,94.0,0.0,[],0.0,1.0,1.0,88.0,1.0,1.0,9.8,4.0,1.0,1.0,1.0,38.0,0.0,356.0,15.0,23.0,2.0,False,,,,
+geopandas__geopandas-2619,geopandas/geopandas,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,
+dandi__dandi-cli-1584,dandi/dandi-cli,3.9,3,9.0,0.0,0.0,reproduced,746.0,9.0,"['dandi.cli.tests.test_cmd_validate::test_validate_severity', 'dandi.cli.tests.test_cmd_validate::test_validate_ignore', 'dandi.cli.tests.test_cmd_validate::test_validate_nwb_path_grouping', 'dandi.cli.tests.test_command::test_smoke[command1]', 'dandi.tests.test_files::test_validate_simple1']",0.0,1.0,1.0,6.0,5.0,2.0,118.2,4.0,0.0,0.0,0.0,7.0,0.0,44.0,15.0,11.0,2.0,True,,,,
+xonsh__xonsh-4835,xonsh/xonsh,3.9,3,0.0,0.0,7.0,reproduced,5019.0,0.0,[],0.0,6.0,5.0,144.0,6.0,6.0,91.4,4.0,1.0,0.5,1.0,1274.0,0.0,56.0,1.0,1.0,3.0,False,,,,
+iris-hep__func_adl-186,iris-hep/func_adl,3.9,3,0.0,1.0,0.0,reproduced,360.0,0.0,[],1.0,6.0,6.0,192.0,4.0,4.0,2.5,5.0,1.0,0.8,1.0,163.0,0.0,608.0,1.0,1.0,1.0,False,,,,
+python-cmd2__cmd2-1069,python-cmd2/cmd2,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+simonw__files-to-prompt-36,simonw/files-to-prompt,3.9,3,0.0,0.0,0.0,reproduced,12.0,0.0,[],0.0,6.0,6.0,12.0,1.0,1.0,0.7,8.0,1.0,0.5,1.0,12.0,0.0,60.0,1.0,1.0,inf,False,,,,
+lipoja__URLExtract-138,lipoja/URLExtract,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+matthewwardrop__formulaic-43,matthewwardrop/formulaic,3.9,3,0.0,0.0,0.0,reproduced,202.0,0.0,[],0.0,1.0,1.0,3.0,1.0,1.0,4.4,4.0,0.5,0.25,0.25,23.0,0.0,16.0,2.0,8.0,2.0,False,,,,
+craffel__mir_eval-374,craffel/mir_eval,3.9,3,0.0,0.0,0.0,reproduced,108.0,0.0,[],0.0,1.0,1.0,5.0,2.0,2.0,31.1,4.0,0.5,0.25,0.5,10.0,0.0,28.0,11.0,3.0,2.0,True,,,,
+repoze__repoze.who-47,repoze/repoze.who,3.9,3,0.0,0.0,0.0,reproduced,306.0,0.0,[],0.0,3.0,1.0,0.0,2.0,2.0,2.7,4.0,0.75,0.75,0.75,14.0,0.0,8.0,1.0,1.0,1.0,False,,,,
+stravalib__stravalib-385,stravalib/stravalib,3.9,3,0.0,1.0,0.0,reproduced,220.0,0.0,[],1.0,5.0,4.0,0.0,7.0,7.0,7.9,6.0,1.0,1.0,1.0,98.0,0.0,42.0,1.0,1.0,1.0,True,,,,
+chrahunt__hlp-15,chrahunt/hlp,3.9,3,0.0,0.0,0.0,reproduced,13.0,0.0,[],0.0,3.0,3.0,7.0,1.0,1.0,0.7,10.0,0.8,0.3,0.8,11.0,0.0,48.0,1.0,1.0,0.0,False,,,,
+pydata__xarray-8266,pydata/xarray,3.9,3,0.0,0.0,0.0,trace-failed,,,,,,,,,,,,,,,,,,,,,,,,,"FF...FFFFFF.FFFFsF.................... [ 13%]
+....Fatal Python error: Fatal Python error: Segmentation faultSegmentation fault
+
+
+
+Thread 0x00007cdfabfff6c0 (most recent call first):
+  File ""/root/.local/share/uv/python/cpython-3.9-linux-x86_64-gnu/lib/python3.9/concurrent/futures/thread.py"", line 81"
+pckroon__pysmiles-13,pckroon/pysmiles,3.9,3,0.0,0.0,0.0,reproduced,81.0,0.0,[],0.0,2.0,2.0,56.0,5.0,5.0,7.4,8.0,0.875,0.5,0.875,45.0,2.0,480.0,6.0,1.0,0.0,False,,,,
+cherrypy__cherrypy-1976,cherrypy/cherrypy,3.9,3,0.0,0.0,0.0,trace-failed,,,,,,,,,,,,,,,,,,,,,,,,,"         [ 70%]
+cherrypy/test/test_session.py ..........EEEEEE                           [ 75%]
+cherrypy/test/test_sessionauthenticate.py ..                             [ 76%]
+cherrypy/test/test_states.py ..............                              [ 80%]
+cherrypy/test/test_static.py ....x........s."
+probabl-ai__skore-1009,probabl-ai/skore,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,4.0,4.0,0.0,
+arnaudmiribel__streamlit-extras-102,arnaudmiribel/streamlit-extras,3.9,3,0.0,0.0,0.0,reproduced,66.0,0.0,[],0.0,3.0,1.0,0.0,6.0,6.0,9.4,4.0,1.0,1.0,1.0,0.0,0.0,24.0,1.0,1.0,0.0,False,,,,
+airtai__fastagency-314,airtai/fastagency,3.10,3,0.0,3.0,0.0,reproduced,123.0,0.0,[],3.0,8.0,6.0,6.0,3.0,3.0,52.7,5.0,0.8,0.8,0.8,5.0,0.0,35.0,4.0,1.0,2.0,False,,,,
+Fatal1ty__mashumaro-127,Fatal1ty/mashumaro,3.9,3,0.0,0.0,0.0,reproduced,25082.0,0.0,[],0.0,1.0,1.0,54.0,1.0,1.0,167.7,4.0,1.0,1.0,1.0,48.0,0.0,216.0,32.0,8.0,2.0,True,,,,
+networkx__networkx-5048,networkx/networkx,3.9,3,0.0,0.0,0.0,reproduced,4602.0,0.0,[],0.0,1.0,1.0,15.0,1.0,1.0,154.4,4.0,0.5,0.5,0.5,12.0,0.0,40.0,6.0,2.0,3.0,True,,,,
+spacetelescope__gwcs-475,spacetelescope/gwcs,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,
+ewels__rich-click-167,ewels/rich-click,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,1.0,1.0,0.0,
+mc706__changelog-cli-34,mc706/changelog-cli,3.9,3,0.0,0.0,0.0,reproduced,51.0,0.0,[],0.0,1.0,1.0,4.0,1.0,1.0,1.5,3.0,0.3333333333333333,0.0,0.3333333333333333,20.0,0.0,12.0,2.0,6.0,0.0,True,,,,
+asottile__dead-37,asottile/dead,3.9,3,0.0,0.0,0.0,reproduced,32.0,0.0,[],0.0,0.0,0.0,0.0,1.0,0.0,1.1,0.0,,,,25.0,0.0,0.0,,,,,,,,
+marshmallow-code__apispec-616,marshmallow-code/apispec,3.9,3,0.0,0.0,0.0,reproduced,411.0,0.0,[],0.0,4.0,4.0,11.0,2.0,0.0,5.0,8.0,0.75,0.75,0.75,78.0,0.0,88.0,55.0,55.0,inf,False,,,,
+pypa__setuptools_scm-739,pypa/setuptools_scm,3.9,3,0.0,0.0,0.0,reproduced,248.0,0.0,[],0.0,3.0,3.0,2.0,1.0,1.0,25.4,7.0,0.5714285714285714,0.5714285714285714,0.5714285714285714,11.0,0.0,21.0,2.0,1.0,1.0,False,,,,
+canonical__operator-515,canonical/operator,3.9,3,0.0,2.0,0.0,reproduced,305.0,0.0,[],2.0,5.0,5.0,6.0,8.0,8.0,9.1,1.0,1.0,0.0,1.0,260.0,0.0,13.0,1.0,2.0,0.0,True,,,,
+rigetti__pyquil-1694,rigetti/pyquil,3.9,3,,,,suite-timeout,,,,,,,,,,,,,,,,,,,,,,,,,
+dag-hammarskjold-library__dlx-438,dag-hammarskjold-library/dlx,3.9,3,0.0,0.0,0.0,reproduced,85.0,0.0,[],0.0,10.0,10.0,32.0,1.0,1.0,13.3,4.0,1.0,1.0,1.0,45.0,0.0,38.0,3.0,1.0,1.0,False,,,,
+konradhalas__dacite-274,konradhalas/dacite,3.9,3,0.0,0.0,0.0,reproduced,197.0,0.0,[],0.0,1.0,1.0,101.0,1.0,1.0,8.9,4.0,1.0,0.5,0.5,17.0,0.0,412.0,11.0,17.0,inf,True,,,,
+UKPLab__sentence-transformers-3178,UKPLab/sentence-transformers,3.9,3,,,,suite-timeout,,,,,,,,,,,,,,,,,,,,,,,,,
+valohai__valohai-yaml-94,valohai/valohai-yaml,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,
+zpieslak__mobilus-client-30,zpieslak/mobilus-client,3.9,3,0.0,0.0,0.0,reproduced,84.0,0.0,[],0.0,5.0,5.0,24.0,1.0,1.0,1.8,6.0,0.8333333333333334,0.0,0.3333333333333333,18.0,0.0,32.0,1.0,1.0,0.0,False,,,,
+richardkiss__pycoin-353,richardkiss/pycoin,3.9,3,0.0,1.0,0.0,reproduced,1806.0,0.0,[],1.0,0.0,0.0,0.0,1.0,0.0,71.5,0.0,,,,1796.0,0.0,0.0,,,,,,,,
+scikit-hep__hist-129,scikit-hep/hist,3.9,3,1.0,0.0,0.0,reproduced,73.0,0.0,[],0.0,1.0,1.0,63.0,7.0,7.0,10.6,4.0,1.0,0.75,1.0,13.0,0.0,244.0,11.0,1.0,1.0,False,,,,
+conda-forge__conda-smithy-1885,conda-forge/conda-smithy,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,
+twisted__twisted-12047,twisted/twisted,3.9,3,0.0,1.0,0.0,reproduced,8364.0,0.0,[],0.0,3.0,3.0,0.0,5.0,5.0,352.4,4.0,1.0,1.0,1.0,2.0,0.0,20.0,1.0,1.0,5.0,True,,,,
+PyMySQL__PyMySQL-1160,PyMySQL/PyMySQL,3.9,3,0.0,0.0,0.0,reproduced,153.0,0.0,[],0.0,2.0,1.0,0.0,1.0,1.0,23.2,4.0,0.75,0.75,0.75,0.0,0.0,4.0,2.0,2.0,1.0,True,,,,
+nteract__papermill-544,nteract/papermill,3.9,3,0.0,0.0,0.0,reproduced,475.0,0.0,[],0.0,2.0,2.0,19.0,5.0,5.0,196.8,6.0,1.0,0.6666666666666666,0.8333333333333334,22.0,0.0,104.0,2.0,1.0,1.0,True,,,,
+getsentry__sentry-python-3942,getsentry/sentry-python,3.9,3,0.0,0.0,0.0,reproduced,2175.0,0.0,[],0.0,1.0,1.0,1141.0,1.0,1.0,579.6,4.0,0.75,0.5,0.75,196.0,0.0,1460.0,1.0,1.0,0.0,True,,,,
+googleapis__python-bigquery-630,googleapis/python-bigquery,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,7.0,7.0,0.0,
+burnash__gspread-989,burnash/gspread,3.9,3,0.0,0.0,0.0,reproduced,73.0,0.0,[],0.0,5.0,5.0,0.0,1.0,1.0,49.5,2.0,0.0,0.0,0.0,9.0,0.0,2.0,1.0,2.0,0.0,True,,,,
+pre-commit__pre-commit-1943,pre-commit/pre-commit,3.9,3,0.0,1.0,0.0,reproduced,682.0,0.0,[],1.0,1.0,1.0,16.0,3.0,3.0,1175.4,4.0,0.75,0.5,0.75,52.0,0.0,76.0,1.0,2.0,0.0,True,,,,
+sdss__clu-88,sdss/clu,3.9,3,0.0,0.0,0.0,reproduced,152.0,0.0,[],0.0,0.0,0.0,0.0,2.0,0.0,12.6,0.0,,,,15.0,0.0,0.0,,,,,,,,
+macbre__sql-metadata-126,macbre/sql-metadata,3.9,3,0.0,0.0,0.0,reproduced,69.0,0.0,[],0.0,4.0,4.0,55.0,2.0,2.0,1.4,8.0,1.0,0.75,1.0,1.0,0.0,372.0,3.0,4.0,0.0,False,,,,
+ovasquez__mkdocs-merge-18,ovasquez/mkdocs-merge,3.9,3,0.0,0.0,0.0,reproduced,4.0,0.0,[],0.0,1.0,1.0,2.0,1.0,1.0,1.0,4.0,1.0,1.0,1.0,3.0,0.0,12.0,2.0,1.0,1.0,True,,,,
+Textualize__textual-3244,Textualize/textual,3.9,3,0.0,0.0,0.0,reproduced,1709.0,0.0,[],0.0,8.0,8.0,25.0,4.0,4.0,173.2,4.0,0.0,0.0,0.0,0.0,0.0,16.0,1.0,2.0,2.0,True,,,,
+executablebooks__MyST-Parser-925,executablebooks/MyST-Parser,3.9,3,0.0,0.0,0.0,reproduced,1092.0,0.0,[],0.0,1.0,1.0,104.0,1.0,1.0,25.0,4.0,1.0,0.5,1.0,1077.0,0.0,416.0,15.0,11.0,1.0,False,,,,
+sciunto-org__python-bibtexparser-213,sciunto-org/python-bibtexparser,3.9,3,0.0,0.0,0.0,reproduced,144.0,0.0,[],0.0,6.0,6.0,92.0,3.0,3.0,75.6,5.0,0.2,0.2,0.2,5.0,0.0,15.0,5.0,1.0,0.0,False,,,,
+andialbrecht__sqlparse-768,andialbrecht/sqlparse,3.9,3,0.0,0.0,0.0,reproduced,498.0,0.0,[],0.0,6.0,6.0,365.0,2.0,2.0,4.1,7.0,1.0,0.8571428571428571,0.8571428571428571,85.0,0.0,2548.0,1.0,3.0,0.0,True,,,,
+scrapinghub__web-poet-142,scrapinghub/web-poet,3.9,3,0.0,0.0,0.0,reproduced,116.0,0.0,[],0.0,4.0,4.0,27.0,1.0,1.0,2.6,5.0,1.0,1.0,1.0,10.0,0.0,86.0,2.0,1.0,0.0,True,,,,
+SAP__cloud-pysec-73,SAP/cloud-pysec,3.9,3,0.0,0.0,0.0,reproduced,69.0,0.0,[],0.0,0.0,0.0,0.0,1.0,0.0,15.6,0.0,,,,29.0,0.0,0.0,,,,,,,,
+ResearchObject__ro-crate-py-193,ResearchObject/ro-crate-py,3.9,3,0.0,1.0,0.0,reproduced,154.0,0.0,[],1.0,1.0,1.0,84.0,1.0,1.0,6.3,4.0,1.0,1.0,1.0,26.0,0.0,340.0,27.0,39.0,2.0,True,,,,
+robmarkcole__HASS-data-detective-71,robmarkcole/HASS-data-detective,3.9,3,0.0,1.0,0.0,reproduced,8.0,0.0,[],1.0,1.0,1.0,0.0,1.0,1.0,0.6,4.0,1.0,1.0,1.0,1.0,0.0,4.0,1.0,1.0,0.0,True,,,,
+dask__dask-10803,dask/dask,3.9,3,,,,env-failed,,,,,,,,,,,,,,,,,,,,,,,,,"install: d.1.g981c95b depends on distributed==2024.1.0, we can conclude that dask[complete]==0+untagged.1.g981c95b depends on dask==2024.1.0.
+         And because only dask[complete]==0+untagged.1.g981c95b is available and you require dask[complete], we can conclude that your requirements are unsatisfiable.
+"
+pydata__xarray-9079,pydata/xarray,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,3.0,3.0,0.0,
+regionmask__regionmask-362,regionmask/regionmask,3.9,3,,,,not-reproduced,,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,
+theskumar__python-dotenv-361,theskumar/python-dotenv,3.9,3,0.0,0.0,0.0,reproduced,134.0,0.0,[],0.0,1.0,1.0,21.0,1.0,1.0,5.2,4.0,1.0,1.0,1.0,54.0,0.0,84.0,1.0,3.0,0.0,True,,,,
+fronzbot__blinkpy-949,fronzbot/blinkpy,3.9,3,0.0,0.0,0.0,reproduced,169.0,0.0,[],0.0,6.0,4.0,7.0,3.0,3.0,41.6,1.0,1.0,1.0,1.0,12.0,0.0,3.0,1.0,1.0,0.0,False,,,,
+TeamGraphix__graphix-154,TeamGraphix/graphix,3.9,3,0.0,0.0,0.0,reproduced,2793.0,0.0,[],0.0,1.0,1.0,95.0,1.0,1.0,152.4,4.0,0.75,0.25,0.75,157.0,0.0,384.0,18.0,15.0,3.0,True,,,,

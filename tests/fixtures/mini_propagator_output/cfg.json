@@ -1,0 +1,12 @@
+{
+ "mini": {
+  "anyio": false,
+  "ini_stubs": [
+   "timeout"
+  ],
+  "markers": [
+   "xdist_group"
+  ],
+  "wflags": []
+ }
+}

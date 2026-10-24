@@ -1,0 +1,3 @@
+task,repo,secs,peak_mb,n_tests,n_funcs,n_edges,pkgs,d_old,d_old_list,d_rev,d_rev_list,fid_mismatch,fid_list,nF,F_exec,F_missing,old_tests_hit_F,n_f2p,f2p_hit_F,f2p_footprint
+mini_1,mini,"[0.5, 0.5, 0.5]","[27, 27, 27]",6,7,5,mini,0,[],0,[],0,[],1,1,[],4,1,True,2
+mini_2,mini,"[0.4, 0.5, 0.5]","[27, 27, 27]",6,7,5,mini,0,[],0,[],0,[],1,1,[],3,1,True,4

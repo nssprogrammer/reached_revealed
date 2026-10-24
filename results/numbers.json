@@ -1,0 +1,114 @@
+{
+ "swe": {
+  "candidates": 150,
+  "reproduced": 104,
+  "repos": 96,
+  "executed": 78,
+  "silent": 77,
+  "silent_ci": [
+   0.9605263157894737,
+   1.0
+  ],
+  "median_old_tests": 27.0,
+  "funnel": {
+   "reproduced": 104,
+   "not-reproduced": 33,
+   "suite-timeout": 5,
+   "env-failed": 4,
+   "trace-failed": 4
+  }
+ },
+ "blindspot": {
+  "tasks": 89,
+  "planted": 468,
+  "fail-to-pass tests": 0.5508560727661852,
+  "+ pass-to-pass tests": 0.2089887640449438,
+  "+ other existing tests": 0.06304173354735153,
+  "no existing test": 0.17711342964151966,
+  "accepted_by_harness": 0.2401551631888711,
+  "accepted_ci": [
+   0.17943587662337668,
+   0.30384258414806176
+  ],
+  "f2p_ci": [
+   0.4758789866703887,
+   0.6217442552060009
+  ]
+ },
+ "E1": {
+  "conditions": {
+   "bm25": {
+    "n": 99,
+    "recall": 0.47474747474747475,
+    "top1": 0.43434343434343436,
+    "top1_ci": [
+     0.3333333333333333,
+     0.5353535353535354
+    ]
+   },
+   "pv1": {
+    "n": 96,
+    "recall": 0.71875,
+    "top1": 0.53125,
+    "top1_ci": [
+     0.4270833333333333,
+     0.625
+    ]
+   },
+   "cov": {
+    "n": 96,
+    "recall": 0.6875,
+    "top1": 0.59375,
+    "top1_ci": [
+     0.4895833333333333,
+     0.6875
+    ]
+   },
+   "rt1": {
+    "n": 96,
+    "recall": 0.78125,
+    "top1": 0.6354166666666666,
+    "top1_ci": [
+     0.5416666666666666,
+     0.7291666666666666
+    ]
+   }
+  },
+  "rt1_vs_pv1": {
+   "wins": 13,
+   "losses": 3,
+   "p": 0.021270751953125
+  },
+  "rt1_vs_bm25": {
+   "wins": 30,
+   "losses": 10,
+   "p": 0.0022214337732293643
+  },
+  "rt1_vs_cov": {
+   "wins": 9,
+   "losses": 5,
+   "p": 0.4239501953125
+  }
+ },
+ "E2": {
+  "tasks": 88,
+  "answers": 440,
+  "valid": 0.9681818181818181,
+  "greedy_resolve": 0.375,
+  "sampled_resolve": 0.4119318181818182,
+  "best_of_5": 0.45454545454545453,
+  "wrong": 212,
+  "right": 178,
+  "wrong_flagged": 0.4339622641509434,
+  "right_flagged": 0.02247191011235955,
+  "p_right_given_flag": 0.041666666666666664,
+  "p_right_given_pass": 0.5918367346938775,
+  "wrong_flagged_ci": [
+   0.30800876338851024,
+   0.5566049354029184
+  ],
+  "select_greedy": 0.375,
+  "select_visible": 0.3977272727272727,
+  "mixed_tasks": 9
+ }
+}

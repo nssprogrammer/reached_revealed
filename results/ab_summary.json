@@ -1,0 +1,13 @@
+{
+  "note": "transcribed from propagator_ab_grade.ipynb output (106 paired tasks x 2 seeds)",
+  "n_tasks": 106,
+  "seeds": [0, 1],
+  "per_seed": {
+    "0": {"v2": 0.085, "v32": 0.142, "v32_only": 8, "v2_only": 2, "mcnemar_p": 0.109},
+    "1": {"v2": 0.123, "v32": 0.170, "v32_only": 7, "v2_only": 2, "mcnemar_p": 0.18}
+  },
+  "all": {"v2": "22/212", "v32": "33/212", "diff": 0.052, "diff_ci": [0.014, 0.094], "tasks_v32_more": 14, "tasks_v2_more": 4,
+          "permutation_p": 0.0261, "sign_test_p": 0.0309},
+  "precision_of_edits": {"v2": "22/61", "v32": "33/55"},
+  "wrong_patches_f2p": {"v2": 35, "v32": 17}
+}

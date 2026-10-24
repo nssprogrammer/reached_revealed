@@ -1,0 +1,3 @@
+n,m,reciprocity,frac_in_cycles,largest_scc,rho,departure,amp_0.5,tpeak_0.5,amp_1.0,tpeak_1.0,amp_2.0,tpeak_2.0,task,repo,n_sites,mean_bhat,kill_rate
+7,5,0.0,0.0,1,0.0,1.0,3.2469447608820374,4.474576271186441,1.0,0.0,1.0,0.0,mini_1,mini,4,2.8125,0.6
+7,5,0.0,0.0,1,0.0,1.0,3.2469447608820374,4.474576271186441,1.0,0.0,1.0,0.0,mini_2,mini,4,3.25,0.8
